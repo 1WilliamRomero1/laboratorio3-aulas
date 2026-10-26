@@ -1,0 +1,63 @@
+.fondo {
+    -fx-background-color: #eef2f8;
+    -fx-font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+.tarjeta {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.14), 14, 0, 0, 2);
+}
+
+.titulo {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0b3d91;
+}
+
+.subtitulo {
+    -fx-font-size: 13px;
+    -fx-text-fill: #5b6475;
+}
+
+.etiqueta {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2b3445;
+}
+
+.mensaje-error {
+    -fx-text-fill: #c0392b;
+    -fx-font-size: 12px;
+    -fx-min-height: 18px;
+}
+
+.text-field:focused, .password-field:focused, .combo-box:focused {
+    -fx-border-color: #0b3d91;
+    -fx-border-radius: 3;
+}
+
+.boton-primario {
+    -fx-background-color: #0b3d91;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-padding: 8 22 8 22;
+    -fx-cursor: hand;
+}
+
+.boton-primario:hover {
+    -fx-background-color: #14529f;
+}
+
+.boton-secundario {
+    -fx-background-color: #dfe5ef;
+    -fx-text-fill: #2b3445;
+    -fx-background-radius: 6;
+    -fx-padding: 8 18 8 18;
+    -fx-cursor: hand;
+}
+
+.boton-secundario:hover {
+    -fx-background-color: #cdd6e5;
+}
